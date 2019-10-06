@@ -1,0 +1,95 @@
+{{template "header" .}}
+<body>
+<header>
+    <div class="container">
+        {{template "navbar" .}}
+        <!-- Breadcrumbs -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item"><a href="/list?code={{.ContinentCode}}">List of countries</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Country detail</li>
+            </ol>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <h2>{{.OfficialName}}</h2>
+        <div class="row">
+            <div class="col-6">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th scope="row">Country code</th>
+                        <td>{{.Code}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Country name</th>
+                        <td>{{.Name}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Official country name</th>
+                        <td>{{.OfficialName}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Capital</th>
+                        <td>{{.Capital}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Area</th>
+                        <td>{{.Area}} km<sup>2</sup></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">ISO country code</th>
+                        <td>{{.Iso3}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Country number</th>
+                        <td>{{.Number}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Currency</th>
+                        <td>{{.Currency}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Coordinates</th>
+                        <td>Latitude: {{index .Coord 0}}<br>Longitude: {{index .Coord 1}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Flag</th>
+                        <td><img src="/images/countries/{{.CodeLow}}.png"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Wikipedia</th>
+                        <td>
+                            <a href="https://en.wikipedia.org/wiki/{{.Name}}" target="_blank">
+                                Go to Wiki page
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <!-- map -->
+            <div class="col-6 text-center">
+                <div id="map_canvas" style="height: 400px"></div>
+                <script>
+                    function initialize() {
+                        var myLatlng = new google.maps.LatLng({{index .Coord 0}}, {{index .Coord 1}});
+                        var myOptions = {
+                            zoom: 5,
+                            center: myLatlng,
+                            mapTypeId: google.maps.MapTypeId.ROADMAP
+                        }
+                        var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+                    }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initialize" async defer></script>
+            </div>
+        </div>
+    </div>
+</main>
+
+{{template "footer" .}}

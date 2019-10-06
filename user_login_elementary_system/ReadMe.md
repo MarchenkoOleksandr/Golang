@@ -1,0 +1,1 @@
+It's an elementary login system, which allows to register or login users.

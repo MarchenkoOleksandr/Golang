@@ -1,0 +1,246 @@
+Mariehamn
+Pago Pago
+The Valley
+
+Saint John's
+Cairo
+Buenos Aires
+Oranjestad
+St. Peter Port
+Saint Helier
+Bridgetown
+Belmopan
+Hamilton
+Caracas
+Sarajevo
+
+Diego Garcia
+Road Town
+Bandar Seri Begawan
+Ouagadougou
+Ottawa
+George Town
+Bangui
+Flying Fish Cove
+Georgetown
+West Island
+Canberra
+Roseau
+San Juan
+Nassau
+Saipan
+Avarua
+Prague
+Pyongyang
+São Tomé
+Kinshasa
+Dili
+Colombo
+Santo Domingo
+Montevideo
+Stanley
+Tórshavn
+Addis Ababa
+Berlin
+Abuja
+Palikir
+Basseterre
+Brasília
+Cayenne
+Papeetē
+Paris
+Port-aux-Français
+Libreville
+Tbilisi
+Gibraltar
+Luxembourg
+Nuuk
+St. George's
+Basse-Terre
+Hagåtña
+Amman
+
+Athens
+Vatican City
+City of Victoria
+Port Moresby
+Apia
+Dublin
+Kabul
+Tehran
+Nouakchott
+Islamabad
+Douglas
+Rome
+Kingston
+Tokyo
+Manama
+Brussels
+Thimphu
+Phnom Penh
+Copenhagen
+Maseru
+Rabat
+Oslo
+Riyadh
+Madrid
+Lobamba
+Stockholm
+Bangkok
+Amsterdam
+Nuku'alofa
+Bishkek
+Vientiane
+Beirut
+Tripoli
+
+Kuala Lumpur
+Fort-de-France
+Mamoudzou
+Ulan Bator
+Plymouth
+
+Nouméa
+Wellington
+Alofi
+Kingston
+Ramallah
+Algiers
+Dhaka
+Beijing
+Adamstown
+Lisbon
+Andorra la Vella
+Vaduz
+Monaco
+Tirana
+Luanda
+Yerevan
+Vienna
+Baku
+Minsk
+Porto-Novo
+Sucre
+Gaborone
+Sofia
+Bujumbura
+Yaoundé
+Praia
+N'Djamena
+Santiago
+Bogotá
+San José
+Yamoussoukro
+Zagreb
+Havana
+Nicosia
+Djibouti
+Quito
+San Salvador
+Malabo
+Tallinn
+Helsinki
+Accra
+Guatemala City
+Conakry
+Bissau
+Port-au-Prince
+Tegucigalpa
+Budapest
+Reykjavik
+New Delhi
+Jakarta
+Baghdad
+Astana
+Nairobi
+South Tarawa
+Seoul
+Riga
+Monrovia
+Vilnius
+Skopje
+Antananarivo
+Lilongwe
+Malé
+Bamako
+Valletta
+Port Louis
+Chișinău
+Podgorica
+Maputo
+Windhoek
+Yaren
+Managua
+Niamey
+Ngerulmud
+Panama City
+Asunción
+Lima
+Warsaw
+Kigali
+City of San Marino
+Dakar
+Belgrade
+Victoria
+Freetown
+Singapore
+Ljubljana
+Pretoria
+Khartoum
+Paramaribo
+Dushanbe
+Brazzaville
+Suva
+Banjul
+Majuro
+Manila
+Port of Spain
+Ankara
+Kampala
+Tashkent
+Port Vila
+Lusaka
+Harare
+Saint-Denis
+Bucharest
+Moscow
+Gustavia
+
+Castries
+Marigot
+Saint-Pierre
+Kingstown
+Bratislava
+Hanoi
+Honiara
+Mogadishu
+King Edward Point
+Asmara
+Jerusalem
+Kuwait City
+Kathmandu
+Doha
+Muscat
+Longyearbyen
+Bern
+Damascus
+Taipei
+Lomé
+Fakaofo
+Tunis
+Ashgabat
+Cockburn Town
+Funafuti
+Kyiv
+Naypyidaw
+Moroni
+Abu Dhabi
+London
+Mexico City
+Dodoma
+
+Washington D.C.
+Charlotte Amalie
+Mata-Utu
+El Aaiún
+Sana'a
